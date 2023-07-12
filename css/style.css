@@ -1,3 +1,21 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.my-container {
+    display: flex;
+    flex-wrap: wrap;
+    aspect-ratio: 1/1;
+}
+
+.grid-square {
+    aspect-ratio: 1/1;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.my-bg-light {
+    background-color: white;
+}
